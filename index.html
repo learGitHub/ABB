@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"        content="width=device-width, initial-scale=1.0">
+	<meta name="description"     content="">
+	<meta name="Amy Bella Tseng" content="ABB">
+	
+	<title>ABB Group - Technological Solutions</title>
+
+	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
+	
+	<!-- Bootstrap itself -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+	<!-- Custom styles -->
+	<link rel="stylesheet" href="assets/css/magister.css">
+
+	<!-- Fonts -->
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Wire+One" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet"> 
+	<script type="text/javascript">
+        function goFullscreen(id) {
+        var element = document.getElementById(id);       
+        if (element.mozRequestFullScreen) {
+        element.mozRequestFullScreen();
+        } else if (element.webkitRequestFullScreen) {
+          element.webkitRequestFullScreen();
+          }  
+        }
+  </script>
+	<!-- 360 head meta -->
+	<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+    <style> @-ms-viewport { width: device-width; } </style>
+    <link rel="stylesheet" href="vendor/reset.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+
+
+
+
+
+
+<!-- use "theme-invert" class on bright backgrounds, also try "text-shadows" class -->
+<body class="single-scene ">
+
+<nav class="mainmenu">
+	<div class="container">
+		<div class="dropdown">
+			<button type="button" class="navbar-toggle" data-toggle="dropdown"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+			<!-- <a data-toggle="dropdown" href="#">Dropdown trigger</a> -->
+			<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+				<li><a href="#head" class="active">Hello</a></li>
+				<li><a href="#about">Virtual Tour</a></li>
+				<li><a href="#themes">Renderings</a></li>
+				<li><a href="#contact">Our Services</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+
+<!-- Main (Home) section -->
+<section class="section" id="head">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center">	
+
+				<!-- Site Title, your name, Hola msg, etc. -->
+				<h1 class="title">ABB Tech Group</h1>
+				<h2 class="subtitle">Tecnology for Construction</h2>
+
+				<!-- Short introductory (optional) -->
+				<h3 class="tagline">
+					We welcome you to our site.<br>
+          We hope to work with you and help create and finalize your proyects.
+				</h3>
+				
+			</div> <!-- /col -->
+		</div> <!-- /row -->
+	
+	</div>
+</section>
+
+<!-- Second (Paseo Virtual) section -->
+<section class="section cont" id="about">
+		<div class="container">
+	
+		<h2 class="subtitle text-center">Virtual Tour</h2>
+		<div class="row">
+			<div class="col-sm-12 pasvir1">    
+				<h5><span class="simio">Virtualize your project</span></h5><br> 
+        <p>It is important to take advantage of any technological tool available to communicate the vision of the design clear and fast. This technology offers the liberty to explore the
+        design before it is constructed.  </p>  
+			</div>
+			
+
+			<div class="col-sm-8 col-sm-offset-2 text-center">
+             <a 
+				style="cursor:pointer;"
+				class="subtitle-smx"
+                target="popup" 
+                onclick="window.open('vrtour.html','popup','width=800,height=500'); return false;">
+				 Click to begin the virtual tour
+             </a>
+            </div>
+			
+			<div class="col-sm-8 col-sm-offset-2 text-centercellp">
+             <a 
+				class="subtitle-xm">
+				 This content only can be seen on a computer
+             </a>
+            </div>
+			<div class="col-sm-12 pasvir2">
+				<h5><strong>Note!<br></strong></h5>    
+        <p>For a better performance it is recommended to use an Intel i3 or amd A8 with a graphic card.</p>    
+        <p>It is possible that the presentration may take some time to load. This will depend on your internet speed (768kbps mín.).</p> 
+			</div>
+			<div class="col-sm-12 pasvir3">
+				<h5><strong>ABB Tech Group<br></strong></h5>
+				<!-- <p><a href="http://be.net">Behance</a> / <a href="https://twitter.com">Twitter</a> / <a href="http://linkedin.com">LinkedIn</a> / <a href="https://www.facebook.com">Facebook</a></p> -->
+			</div>
+		</div>
+		</div>
+			
+</section>
+
+<!-- Third (Works) section -->
+<section class="section cont" id="themes">
+	<div class="container">
+	
+		<h2 class="text-center subtitle">Renderings</h2>
+		<p class="lead text-center">
+			We like to reach realism before they even are reality<br>
+			
+		</p>
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
+             <video onloadstart="this.volume=0.5" class="video_player" id="player" width="100%" controls="controls">
+              <source src="movie.mp4"/>
+              Your browser does not support the HTML5 video tag.  Use a better browser!
+             </video>
+               <script>
+                  var video = document.currentScript.parentElement;
+                  video.volume = 0.5;
+               </script>
+			</div>			
+			<div class="col-sm-4 col-sm-offset-2">
+				<div class="thumbnail">
+					<a target="_self" href="assets/renders/Living01.jpg">
+                       <img src="assets/renders/Living01.jpg" alt="Render">
+                    </a>
+					<div class="caption">
+						<h3>Livingroom 1</h3>
+						<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.</p> -->
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="thumbnail">
+					<a target="_self" href="assets/renders/Living02.jpg">
+                       <img src="assets/renders/Living02.jpg" alt="Render">
+                    </a>
+					<div class="caption">
+						<h3>Livingroom 2</h3>
+						<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.</p> -->
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 col-sm-offset-2">
+				<div class="thumbnail">
+					<a target="_self" href="assets/renders/Corridor01.jpg">
+                       <img src="assets/renders/Corridor01.jpg" alt="Render">
+                    </a>
+					<div class="caption">
+						<h3>Hall</h3>
+						<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.</p> -->
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="thumbnail">
+					<a target="_self" href="assets/renders/MasterBed01.jpg">
+                       <img src="assets/renders/MasterBed01.jpg" alt="Render">
+                    </a>
+					<div class="caption">
+						<h3>Master Bedroom</h3>
+						<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.</p> -->
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 col-sm-offset-2">
+				<div class="thumbnail">
+					<a target="_self" href="assets/renders/BedRoom01.jpg">
+                       <img src="assets/renders/BedRoom01.jpg" alt="Render">
+                    </a>
+					<div class="caption">
+						<h3>Bedroom 1</h3>
+						<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.</p> -->
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="thumbnail">
+					<a target="_self" href="assets/renders/BedRoom02.jpg">
+                       <img src="assets/renders/BedRoom02.jpg" alt="Render">
+                    </a>
+					<div class="caption">
+						<h3>Bedroom 2</h3>
+						<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.</p> -->
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+<!-- Fourth (Contact) section -->
+<section class="section cont" id="contact">
+	<div class="container cont">
+	
+		<h2 class="text-center subtitle">Contact Us</h2>
+
+		<div class="row">
+			<div class="col-sm-12 text-center">
+				<p class="lead">We help you project your dreams.</p>
+				<h1 class="lead2">Digital Presentation</h1>
+				<ul class="firasans" style="list-style-type:none">
+				   <li>Renderings and animation</li>
+                   
+					   <a
+						 class="firasans_un"
+						 style="cursor:pointer;"
+                         target="popup" 
+                         onclick="window.open('VRdemo.mp4','popup','width=1280,height=720,this.volume=0.5'); return false;">
+				         VR - Virtual Reality (Click Here)  
+                       </a>
+				       <br>
+				       <a 
+						 class="firasans_un" 
+						 style="cursor:pointer;"
+                         target="popup" 
+                         onclick="window.open('ARdemo.mp4','popup','width=1280,height=720,this.volume=0.5'); return false;">
+				         AR - Augmented Reality (Click Here) 
+                       </a>
+                       <br>
+          </ul>
+				<br>
+				<h1 class="lead2">Architecture</h1>
+				<ul class="firasans" style="list-style-type:none">
+				   <li>Residential Projects</li>
+           <li>Comercial Projects</li>
+				   <li>Building Code Regulation</li>
+				   <li>Remodelation / Additions</li>
+          </ul>
+				<br>
+				<h1 class="lead2">Contact</h1>
+				<p>Don't hesitate to call or email us!</p>
+				<p>+56 9 4446-0612</p>
+				<p><b>abb.techg@gmail.com</b><br><br></p>
+				<!-- <ul class="list-inline list-social">
+					<li><a href="https://twitter.com/serggg" class="btn btn-link"><i class="fa fa-twitter fa-fw"></i> Twitter</a></li>
+					<li><a href="https://github.com/pozhilov" class="btn btn-link"><i class="fa fa-github fa-fw"></i> Github</a></li> 
+					
+				</ul> -->
+			</div>
+		</div>
+
+	</div>
+</section>
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="#" class="scene" data-id="0-modx01">
+        <li class="text"></li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  
+</div>
+
+<a href="#" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon off" src="img/pause.png">
+</a>
+
+<a href="#" id="fullscreenToggle">
+  <img class="icon on" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="#" id="sceneListToggle">
+  <img class="icon on" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="#" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon on" src="img/up.png">
+</a>
+<a href="#" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon on" src="img/down.png">
+</a>
+<a href="#" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon on" src="img/left.png">
+</a>
+<a href="#" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon on" src="img/right.png">
+</a>
+<a href="#" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon on" src="img/plus.png">
+</a>
+<a href="#" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon on" src="img/minus.png">
+</a>
+
+<!-- Load js libs only when the page is loaded. -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/modernizr.custom.72241.js"></script>
+<!-- Custom template scripts -->
+<script src="assets/js/magister.js"></script>
+<!-- 360 scripts -->
+<script src="vendor/es5-shim.js"></script>
+<script src="vendor/eventShim.js"></script>
+<script src="vendor/classList.js"></script>
+<script src="vendor/requestAnimationFrame.js" ></script>
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
